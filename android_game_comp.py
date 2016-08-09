@@ -6,7 +6,7 @@ from shutil import copyfile
 # Define the path to love-android-sdl2 here:
 path_to_love_android = "C:/Android/love-android-sdl2"
 
-#record the current working directory at the beginning:
+#Record the current working directory at the beginning:
 start_directory = os.path.realpath(__file__)
 
 def zipgame(path, loveZip):
